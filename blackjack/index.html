@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+</head>
+<body>
+<div class="container-5">
+    <h2>Blackjack Challenge</h2>
+    <h3><span id="blackjack-result">Lets play!</span></h3>
+    <div class="flex-box-row-1">
+        <div id="your-box">
+            <h2>You : <span id="your-score">0</span></h2>
+        </div>
+        <div id="bot-box">
+            <h2>Bot : <span id="bot-score">0</span></h2>
+        </div>
+    </div>
+    <div class="flex-box-row-2">
+        <div>
+            <button class="btn btn-primary" style="margin:5px" id="hit">Hit</button>
+            <button class="btn btn-warning" style="margin:5px" id="stand">Stand</button>
+            <button class="btn btn-success" style="margin:5px" id="reset">Reset</button>
+        </div>
+    </div>
+    <div class="flex-box-row-3">
+        <table>
+            <tr>
+                <th>Wins</th>
+                <th>Loses</th>
+                <th>Ties</th>
+            </tr>
+            <tr>
+                <td><span id="wins">0</span></td>
+                <td><span id="losses">0</span></td>
+                <td><span id="ties">0</span></td>
+            </tr>
+        </table>
+    </div>  
+</div>
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
